@@ -11,7 +11,7 @@ _requires = [
 ]
 
 setuptools.setup(
-    name='ebs-linuxnode-kivy-gallery',
+    name='ebs-linuxnode-gui-kivy-gallery',
     url='https://github.com/ebs-universe/ebs-linuxnode-kivy-gallery',
 
     author='Chintalagiri Shashank',
