@@ -37,7 +37,7 @@ class BaseGalleryManager(object):
         if not self._log:
             self._log = logger.Logger(namespace="gallery.{0}".format(self._gmid),
                                       source=self)
-        return self._log7
+        return self._log
 
     @property
     def default_duration(self):

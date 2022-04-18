@@ -4,15 +4,15 @@ _requires = [
     'six',
     'setuptools-scm',
     'SQLAlchemy',
-    'kivy_garden.ebs.gallery',
-    'kivy_garden.ebs.pdfplayer',
-    'ebs-linuxnode-core',
-    'ebs-linuxnode-coregui-kivy',
+    'kivy_garden.ebs.gallery>=1.0',
+    'kivy_garden.ebs.pdfplayer>=1.0',
+    'ebs-linuxnode-core>=2.0',
+    'ebs-linuxnode-gui-kivy-core>=2.0',
 ]
 
 setuptools.setup(
-    name='ebs-linuxnode-gallery',
-    url='https://github.com/ebs-universe/ebs-linuxnode-gallery',
+    name='ebs-linuxnode-kivy-gallery',
+    url='https://github.com/ebs-universe/ebs-linuxnode-kivy-gallery',
 
     author='Chintalagiri Shashank',
     author_email='shashank.chintalagiri@gmail.com',

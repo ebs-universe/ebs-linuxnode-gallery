@@ -41,4 +41,4 @@ class GalleryGuiMixin(GalleryMixin, BaseIoTNodeGui):
         return self._gallery
 
     def gui_setup(self):
-        super(GalleryGuiMixin, self).gui_setup()
+        return super(GalleryGuiMixin, self).gui_setup()

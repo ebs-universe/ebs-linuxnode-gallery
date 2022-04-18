@@ -29,3 +29,7 @@ class GalleryMixin(BaseMixin):
     @property
     def gui_gallery(self):
         raise NotImplementedError
+
+    def start(self):
+        super(GalleryMixin, self).start()
+        self.gallery_start()
